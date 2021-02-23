@@ -115,14 +115,3 @@ hr{
     font-weight:400;
     letter-spacing: 2px;
 }
-.bg-bottom{
-    background-image: url(../images/bg-pattern-bottom.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 59rem;
-    transform: rotate(0deg) translateY(-9rem) translateX(42rem);
-    opacity: 0.9;
-    position: relative;
-    z-index: -1;
-
-}
