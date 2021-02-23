@@ -8,28 +8,41 @@
 body{
     background-color: #19a1ad;
 }
-.bg-top{
-    
-    background-image: url(../images/bg-pattern-top.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 59rem;
-    transform: rotate(0deg) translateY(-31rem) translateX(-17rem);
-    opacity: 0.9;
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    z-index: -1;
+}
+.bg-tl{
+    width: 60.8125rem;
+    height: 60.8125rem;
+    position: absolute;
+    top: -31.8125rem;
+    left: -21.625rem;
+    background-size: contain;
+    
+}
+
+.bg-br{
+    width: 60.8125rem;
+    height: 60.8125rem;
+    position: absolute;
+    top: 23.5rem;
+    left: 40.1875rem;
 }
 
 .card{
-    /* position:absolute; */
-    margin: auto;
-    margin-top:-48.813rem;
     width: 350px;
     height: 374px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
     overflow: hidden;
+    z-index: 1;
 }
 .section1{
     height: 37%;
