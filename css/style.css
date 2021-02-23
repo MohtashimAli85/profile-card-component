@@ -46,8 +46,10 @@ body{
 }
 .section1{
     height: 37%;
-    background-image: url(../images/bg-pattern-card.svg);
-    padding-top: 5.438rem;
+    background-image: url(../images/bg-pattern-card.svg); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cricle{
     height: 6rem;
@@ -56,9 +58,8 @@ body{
     background-image: url(../images/image-victor.jpg);
     background-position: center;
     border: 5px solid white;
-    margin:auto;
-    overflow: overlay;
     background-size: contain;
+    transform: translateY(63px);
 }
 .section2{
     height: 63%;
